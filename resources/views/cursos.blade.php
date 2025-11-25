@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <title>Cursos</title>
+    {{-- ALTERADO: O caminho do CSS deve usar a função asset() e apontar para public/css/cursos.css --}}
+    <link rel="stylesheet" href="{{ asset('css/cursos.css') }}" />
+</head>
+
+<body>
+
+    <div class="main-bg">
+
+        <div class="container">
+
+            <header class="top-header">
+                <h1>Cursos Disponíveis</h1>
+
+                {{-- ALTERADO: Caminho da imagem para public/images/LOGO.png --}}
+                <img class="logo" src="{{ asset('images/LOGO.png') }}" alt="">
+                <div class="icons">
+                    {{-- ALTERADO: Caminho da imagem para public/images/sunny.png --}}
+                    <img id="modos" class="icon" src="{{ asset('images/sunny.png') }}" alt="">
+                    {{-- ALTERADO: Link usando a função route() para a rota 'home' --}}
+                    <a href="{{ route('home') }}"><img class="icon" src="{{ asset('images/home.png') }}" alt="Home"></a>
+                    {{-- ALTERADO: Link usando a função route() para a rota 'login' --}}
+                    <a href="{{ route('login') }}"><img class="icon" src="{{ asset('images/user.png') }}" alt="Perfil"></a>
+                </div>
+            </header>
+
+            <section class="cursos">
+                
+                <div class="curso">
+                    <div class="curso-img">
+                        <img src="https://wordpress-cms-revista-prod-assets.quero.space/uploads/2024/12/CIPA-1.jpg">
+                    </div>
+                    <div class="curso-info">
+                        <h2>NR-5 — CIPA (Formação e Reciclagem)</h2>
+                        <div class="barra"></div>
+                        <p>Treinamento voltado para capacitar membros da CIPA na prevenção de acidentes, identificação de riscos e promoção da saúde dentro da empresa.</p>
+                    </div>
+                </div>
+
+                <div class="curso">
+                    <div class="curso-img">
+                        <img src="https://cdn.wilsonsons.com.br/wp-content/uploads/2021/10/epis-scaled.jpeg">
+                    </div>
+                    <div class="curso-info">
+                        <h2>NR-6 — EPI (Equipamentos de Proteção Individual)</h2>
+                        <div class="barra"></div>
+                        <p>Curso que orienta os colaboradores sobre o uso correto, conservação e responsabilidades no manuseio dos EPIs, garantindo proteção e conformidade legal.</p>
+                    </div>
+                </div>
+
+                <div class="curso">
+                    <div class="curso-img">
+                        <img src="https://prolifeengenharia.com.br/wp-content/uploads/2025/01/image-1-1024x682.png">
+                    </div>
+                    <div class="curso-info">
+                        <h2>NR-10 — Segurança em Instalações e Serviços com Eletricidade</h2>
+                        <div class="barra"></div>
+                        <p>Capacitação essencial para profissionais que atuam com eletricidade, focando em prevenção, procedimentos seguros e redução de riscos elétricos.</p>
+                    </div>
+                </div>
+
+                <div class="curso">
+                    <div class="curso-img">
+                        <img src="https://www.cobli.co/wp-content/uploads/2022/02/NR-12_A-NR-12-garante-que-o-trabalho-em-maquinas-e-equipamentos-seja-seguro.2-1-scaled.jpeg">
+                    </div>
+                    <div class="curso-info">
+                        <h2>NR-12 — Segurança em Máquinas e Equipamentos</h2>
+                        <div class="barra"></div>
+                        <p>Treinamento direcionado a operadores e mantenedores, abordando práticas seguras de operação, análise de riscos e prevenção de acidentes com máquinas.</p>
+                    </div>
+                </div>
+
+            </section>
+        </div>
+    </div>
+    {{-- ALTERADO: O caminho do JavaScript deve usar a função asset() e apontar para public/js/cursos.js --}}
+    <script src="{{ asset('js/cursos.js') }}"></script>
+</body>
+</html>
