@@ -78,6 +78,34 @@
                             <img src="https://priorityseg.com.br/wp-content/uploads/2025/08/Como-estao-os-envios-dos-eventos-de-SST-no-eSocial.jpg" alt="eSocial">
                         </div>
                     </div>
+                    <div class="servico-card">
+                        <h3>Consultoria em Saúde e Segurança do Trabalho</h3>
+                        <p>Serviço especializado em auxiliar as empresas a protegerem a saúde e a integridade física dos seus colaboradores</p>
+                        <div class="foto-servico">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQV-5g6_NQlMreouqF4tut_kyV7zgX9HVVbw&s" alt="Saude">
+                        </div>
+                    </div>
+                    <div class="servico-card">
+                        <h3>Elaboração de documentos de SST</h3>
+                        <p>Serviço técnico que consiste em criar e gerenciar os registros formais obrigatórios (como PGR, PCMSO e LTCAT) que as empresas devem manter para identificar, controlar e monitorar os riscos ocupacionais</p>
+                        <div class="foto-servico">
+                            <img src="https://grupobrmed.com.br/wp-content/uploads/2025/04/docSST-1024x683.webp" alt="SST">
+                        </div>
+                    </div>
+                    <div class="servico-card">
+                        <h3>Treinamentos Normativos (presencial e EAD através da plataforma de Treinamentos Esocial Brasil)</h3>
+                        <p>Capacitação de colaboradores em Saúde e Segurança do Trabalho (SST), focado no cumprimento das Normas Regulamentadoras (NRs)</p>
+                        <div class="foto-servico">
+                            <img src="https://cdn.bitrix24.com.br/b13297687/landing/81b/81b6e412850c062697f2f73ae0ad1c10/nps_2x_1x_1x.png" alt="Normativos">
+                        </div>
+                    </div>
+                    <div class="servico-card">
+                        <h3>Assistência Técnica em Perícias Trabalhista</h3>
+                        <p>Especialização de um profissional onde (o Assistente Técnico) é contratado por uma das partes (empresa ou trabalhador) para acompanhar e contestar o laudo do Perito Judicial</p>
+                        <div class="foto-servico">
+                            <img src="https://ehsconsultoria.com.br/informacoes/images/assistente-tecnico-para-pericias-trabalhistas.webp" alt="Assistencia">
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
